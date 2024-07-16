@@ -66,7 +66,9 @@ const PropertyMap = ({ property }) => {
 
   // Handle case where geocoding failed
   if (geocodeError) {
-    return <div className='text-xl'>No location data found</div>;
+    
+    return <div className='text-xl'><iframe src={`https://maps.google.com/maps?hl=en;z=14&output=embed&q=${lat},${lng}`} frameborder="0"></iframe></div>;
+    // return <div className='text-xl'>No location data found</div>;
   }
 
   return (

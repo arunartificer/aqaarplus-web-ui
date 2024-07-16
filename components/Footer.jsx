@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '@/assets/images/logo.png';
+import logo from '@/assets/images/logo-1.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div>
           <p className='text-sm text-gray-500 mt-2 md:mt-0'>
-            &copy; {currentYear} PropertyPulse. All rights reserved.
+            &copy; {currentYear} AqaarPulse Real estate Brokerage LLC. All rights reserved.
           </p>
         </div>
       </div>
