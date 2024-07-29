@@ -67,7 +67,7 @@ const Navbar = () => {
               <Image className='h-10 w-auto' src={logo} alt='AqaarPlus_ae' />
 
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
-                Aqaar plus Real-Estate 
+                 
               </span>
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
@@ -107,7 +107,7 @@ const Navbar = () => {
                   Developers
                 </Link>
                 <Link
-                  href='/https://aqaarplusae.com/contact/'
+                  href='https://aqaarplusae.com/contact/'
                   className={`${
                     pathname === '/contactus' ? 'bg-black' : ''
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
