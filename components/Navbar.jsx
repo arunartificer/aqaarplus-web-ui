@@ -64,7 +64,7 @@ const Navbar = () => {
           <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
             {/* <!-- Logo --> */}
             <Link className='flex flex-shrink-0 items-center' href='/'>
-              <Image className='h-10 w-auto' src={logo} alt='AqaarPuls' />
+              <Image className='h-10 w-auto' src={logo} alt='AqaarPlus_ae' />
 
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
                 Aqaar plus Real-Estate 
@@ -99,7 +99,7 @@ const Navbar = () => {
                 </Link>
                 
                 <Link
-                  href='/developers'
+                  href='https://aqaarplusae.com/developers/'
                   className={`${
                     pathname === '/developers' ? 'bg-black' : ''
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
@@ -107,12 +107,12 @@ const Navbar = () => {
                   Developers
                 </Link>
                 <Link
-                  href='/contactus'
+                  href='/https://aqaarplusae.com/contact/'
                   className={`${
                     pathname === '/contactus' ? 'bg-black' : ''
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                 >
-                  Contact us
+                  Contact
                 </Link>
                 {session && (
                   <Link
