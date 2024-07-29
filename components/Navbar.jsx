@@ -90,13 +90,14 @@ const Navbar = () => {
                   Properties
                 </Link>
                 <Link
-                  href='/aboutus'
+                  href='https://aqaarplusae.com/about-us/'
                   className={`${
                     pathname === '/aboutus' ? 'bg-black' : ''
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                 >
                   About us
                 </Link>
+                
                 <Link
                   href='/developers'
                   className={`${
