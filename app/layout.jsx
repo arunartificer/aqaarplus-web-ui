@@ -23,7 +23,7 @@ const MainLayout = ({ children }) => {
             <title>{metadata.title}</title>
             <meta name="description" content={metadata.description} />
             <meta name="keywords" content={metadata.keywords} />
-            <link rel="icon" href="/assets/images/Favicon-aqaar-20.svg" /> {/* Update path if necessary */}
+            <link rel="icon" href='/assets/images/Favicon-aqaar-20.svg' /> {/* Update path if necessary */}
           </Head>
           <body>
             <Navbar />
