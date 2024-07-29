@@ -64,10 +64,9 @@ const Navbar = () => {
           <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
             {/* <!-- Logo --> */}
             <Link className='flex flex-shrink-0 items-center' href='/'>
-              <Image className='h-10 w-auto' src={logo} alt='AqaarPlus_ae' />
-
+              <Image className='h-10 w-auto' src={logo} alt='AqaarPlus_ae' height={40} quality={90} />
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
-                 
+                {/* Aqaar plus Real-Estate  */}
               </span>
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
