@@ -9,7 +9,7 @@ import 'photoswipe/dist/photoswipe.css';
 
 export const metadata = {
   title: 'AqaarPulse | Find The Perfect Rental and Sales Properies',
-  description: 'Find your dream rental property',
+  description: 'Find your dream rental property in Dubai - Licence No.: 1156634',
   keywords: 'rental, find rentals, find properties',
 };
 
