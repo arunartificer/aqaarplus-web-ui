@@ -53,9 +53,6 @@ const PropertySearchForm = () => {
           <option value='Studio'>Studio</option>
           <option value='Condo'>Villa</option>
           <option value='House'>House</option>
-          <option value='Cabin Or Cottage'>Cabin or Cottage</option>
-          <option value='Loft'>Loft</option>
-          <option value='Room'>Room</option>
           <option value='Other'>Other</option>
         </select>
       </div>
