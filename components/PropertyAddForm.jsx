@@ -20,7 +20,7 @@ const PropertyAddForm = () => {
     rates: {
       weekly: '',
       monthly: '',
-      nightly: '',
+      Yearly: '',
     },
     seller_info: {
       name: '',

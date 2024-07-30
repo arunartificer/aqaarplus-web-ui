@@ -27,10 +27,10 @@ const PropertyDetails = ({ property }) => {
         </h3>
         <div className='flex flex-col md:flex-row justify-around'>
           <div className='flex items-center justify-center mb-4 border-b border-gray-200 md:border-b-0 pb-4 md:pb-0'>
-            <div className='text-gray-500 mr-2 font-bold'>Nightly</div>
+            <div className='text-gray-500 mr-2 font-bold'>Yearly</div>
             <div className='text-2xl font-bold text-blue-500'>
-              {property.rates.nightly ? (
-                `$${property.rates.nightly.toLocaleString()}`
+              {property.rates.yearly ? (
+                `$${property.rates.yearly.toLocaleString()}`
               ) : (
                 <FaTimes className='text-red-700' />
               )}
