@@ -120,7 +120,7 @@
       "Coffee Maker"
     ],
     "rates": {
-      "nightly": 200,
+      "yearly": 200,
       "weekly": 750,
       "monthly": 3300
     },
@@ -227,7 +227,7 @@
       "Outdoor Grill/BBQ"
     ],
     "rates": {
-      "nightly": 500,
+      "yearly": 500,
       "weekly": 2500
     },
     "seller_info": {
@@ -262,7 +262,7 @@
       "Pet-Friendly"
     ],
     "rates": {
-      "nightly": 475,
+      "yearly": 475,
       "weekly": 2000
     },
     "seller_info": {
@@ -297,7 +297,7 @@
       "Smart TV"
     ],
     "rates": {
-      "nightly": 300,
+      "yearly": 300,
       "weekly": 1100
     },
     "seller_info": {

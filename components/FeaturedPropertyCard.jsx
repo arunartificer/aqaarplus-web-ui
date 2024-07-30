@@ -16,8 +16,8 @@ const FeaturedPropertyCard = ({ property }) => {
       return `${rates.monthly.toLocaleString()}/mo`;
     } else if (rates.weekly) {
       return `${rates.weekly.toLocaleString()}/wk`;
-    } else if (rates.nightly) {
-      return `${rates.nightly.toLocaleString()}/night`;
+    } else if (rates.yearly) {
+      return `${rates.yearly.toLocaleString()}/night`;
     }
   };
 
@@ -54,9 +54,9 @@ const FeaturedPropertyCard = ({ property }) => {
         </div>
 
         <div className='flex justify-center gap-4 text-green-900 text-sm mb-4'>
-          {property.rates.nightly && (
+          {property.rates.yearly && (
             <p>
-              <FaMoneyBill className='inline mr-2' /> Nightly
+              <FaMoneyBill className='inline mr-2' /> yearly
             </p>
           )}
 

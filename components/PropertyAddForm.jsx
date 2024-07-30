@@ -483,15 +483,15 @@ const PropertyAddForm = () => {
               />
             </div>
             <div className='flex items-center'>
-              <label htmlFor='nightly_rate' className='mr-2'>
-                Nightly
+              <label htmlFor='yearly_rate' className='mr-2'>
+                yearly
               </label>
               <input
                 type='number'
-                id='nightly_rate'
-                name='rates.nightly'
+                id='yearly_rate'
+                name='rates.yearly'
                 className='border rounded w-full py-2 px-3'
-                value={fields.rates.nightly}
+                value={fields.rates.yearly}
                 onChange={handleChange}
               />
             </div>
